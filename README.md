@@ -214,6 +214,7 @@ Bitrefill maintains this list and provides agentic commerce tooling: an eCommerc
 ## Further reading
 
 - [MCP, A2A, ACP, ANP Survey Paper](https://arxiv.org/html/2505.02279v1) - Academic comparison of all major agent protocols.
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ## How the pieces fit together
 
