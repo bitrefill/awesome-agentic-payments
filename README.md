@@ -121,6 +121,7 @@ Infrastructure backbone for most agentic commerce protocols (ACP, AP2, UCP). Key
 - [Stripe Agentic Commerce Docs](https://docs.stripe.com/agentic-commerce) - Primary documentation hub.
 - [Shared Payment Tokens (SPTs)](https://docs.stripe.com/agentic-commerce/concepts/shared-payment-tokens) - Scoped, single-use payment credentials for agents.
 - [MPP Machine-to-Machine Payments](https://docs.stripe.com/payments/machine/mpp) - Private preview documentation page.
+- [FeeGuard](https://feeguard.dev) - Checks Stripe Connect refunds and disputes for unreversed transfers, unadjusted application fees, and uncovered platform losses.
 
 ### Visa
 
