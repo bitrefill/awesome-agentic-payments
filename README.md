@@ -82,7 +82,7 @@ Commerce protocols define what to buy; payment rails define how to pay. These en
 
 ### x402
 
-Uses HTTP 402 "Payment Required" for instant stablecoin payments over HTTP. Built by Coinbase, governed by the x402 Foundation (co-founded with Cloudflare). No API keys, accounts, or subscriptions needed. Serves as the crypto rail within Google's AP2 protocol.
+Uses HTTP 402 "Payment Required" for instant payments over HTTP. Built by Coinbase, governed by the x402 Foundation (co-founded with Cloudflare). No API keys, accounts, or subscriptions needed. Serves as the crypto rail within Google's AP2 protocol. Settlement is asset-agnostic: each merchant advertises the network and asset it accepts in its `accepts[]` entry, so rails other than stablecoins are in-scope — including a fee-free native coin (Nano, XNO).
 
 - [x402 Official Site](https://www.x402.org/) - Documentation and ecosystem overview.
 - [x402 GitHub Repository](https://github.com/coinbase/x402) - Protocol spec, SDKs, and examples.
@@ -90,6 +90,7 @@ Uses HTTP 402 "Payment Required" for instant stablecoin payments over HTTP. Buil
 - [x402 Coinbase Documentation](https://docs.cdp.coinbase.com/x402/welcome) - Developer docs and quickstart.
 - [x402 on Solana](https://solana.com/developers/guides/getstarted/intro-to-x402) - Solana integration guide.
 - [x402 Foundation](https://github.com/x402-foundation/x402) - Neutral governance of the standard under the Linux Foundation, with 22 supporting organizations. [Foundation page](https://linuxfoundation.org/x402foundation/).
+- [Nano-native x402 example](https://extract.paypercall.dev/.well-known/x402) - Live merchant serving pay-per-call x402 APIs settled on the Nano (XNO) network: its manifest advertises `accepts[].network: nano:mainnet`, `asset: XNO`, exact scheme, 0.0001 XNO per call.
 
 ### L402
 
@@ -244,7 +245,7 @@ Bitrefill maintains this list and provides agentic commerce tooling: an eCommerc
 │                  PAYMENT RAILS                                  │
 │                                                                 │
 │  Crypto                          Fiat                           │
-│  x402 (stablecoins)              Stripe (SPTs + Agent Toolkit)  │
+│  x402 (multi-asset)              Stripe (SPTs + Agent Toolkit)  │
 │  L402 (Lightning/Bitcoin)        Visa (TAP + Intelligent Com.)  │
 │  Fewsats (L402 toolkit)         Mastercard (Agent Pay + Tokens) │
 │                                  PayPal · Adyen · Square        │
