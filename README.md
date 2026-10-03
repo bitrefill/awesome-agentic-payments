@@ -16,6 +16,7 @@ Maintained by [Bitrefill](https://www.bitrefill.com). Contributions welcome.
   - [x402](#x402)
   - [L402](#l402)
   - [Fewsats](#fewsats)
+  - [Nano](#nano)
 - [Fiat payment rails](#fiat-payment-rails)
   - [Stripe](#stripe)
   - [Visa](#visa)
@@ -109,6 +110,14 @@ Practical toolkit for AI agents to make L402 payments. MCP server, CLI, and Pyth
 
 - [Fewsats MCP Server](https://github.com/fewsats/fewsats-mcp) - MCP server for AI agent payments.
 - [Fewsats Python SDK](https://github.com/Fewsats/L402-python) - L402 payments for AI agents.
+
+### Nano
+
+A feeless, instant-settlement DAG (directed acyclic graph) payment rail with no miners, no gas, and no accounts or identity checks. Because every transfer is a free sub-second state block, Nano is natively machine-callable: an agent can settle a per-call charge for near-zero cost without a wallet onboarding step. The receiving side is particularly thin (a chain begins with a first receive, which can wait indefinitely), which is what makes it relevant to agent payments.
+
+- [Nano Official Site](https://nano.org/) - Ecosystem overview and documentation portal.
+- [Nano Protocol Docs](https://docs.nano.org/) - The protocol: DAG consensus, blocks, and the receive/send/change state-block model.
+- [nano-node GitHub Repository](https://github.com/nanocurrency/nano-node) - Reference implementation of the Nano protocol and node.
 
 ## Fiat payment rails
 
