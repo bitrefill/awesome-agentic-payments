@@ -55,7 +55,7 @@ Open standard by OpenAI and Stripe. Powers ChatGPT Instant Checkout; supports 1M
 Google's open protocol for payment-agnostic agent-led transactions. Uses Verifiable Digital Credentials (VDCs) and a three-mandate model (Intent, Cart, Payment). Backed by 60+ organizations including Adyen, Mastercard, PayPal, Visa, and Coinbase.
 
 - [AP2 Official Site](https://ap2-protocol.org/) - Primary documentation.
-- [AP2 Specification](https://ap2-protocol.org/specification/) - V0.1 technical spec.
+- [AP2 Specification](https://ap2-protocol.org/ap2/specification/) - V0.1 technical spec.
 - [AP2 GitHub Repository](https://github.com/google-agentic-commerce/AP2) - Reference implementation and code samples.
 - [Google Cloud AP2 Announcement](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol) - Official announcement.
 
@@ -140,9 +140,9 @@ Infrastructure backbone for most agentic commerce protocols (ACP, AP2, UCP). Key
 
 **Agent Ready** uses the Agentic Commerce Protocol (ACP) so existing PayPal/Braintree merchants can accept payments through AI assistants (e.g. ChatGPT) with minimal integration; PayPal handles security and cross-platform compatibility.
 
-- [PayPal Agentic Commerce Overview](https://docs.paypal.ai/growth/agentic-commerce/overview) - Official documentation.
-- [Agent Ready](https://docs.paypal.ai/growth/agentic-commerce/agent-ready) - ACP-based agent payments for existing merchants.
-- [Store Sync](https://docs.paypal.ai/growth/agentic-commerce/store-sync/create-a-product-catalog) - Product catalog and cart integration for AI discovery and checkout.
+- [PayPal Agentic Commerce Overview](https://developer.paypal.com/agentic-commerce-services/about) - Official documentation.
+- [Agent Ready](https://developer.paypal.com/agent-ready/overview) - ACP-based agent payments for existing merchants.
+- [Store Sync](https://developer.paypal.com/store-sync/create-catalog/) - Product catalog and cart integration for AI discovery and checkout.
 - [PayPal Agent Toolkit](https://github.com/paypal/agent-toolkit) - Integrate with PayPal APIs via function calling (OpenAI Agent SDK, LangChain, Vercel AI SDK, MCP). Invoices, orders, catalog, subscriptions, disputes, shipment tracking. ([npm](https://www.npmjs.com/package/@paypal/agent-toolkit))
 
 ### Cloudflare
