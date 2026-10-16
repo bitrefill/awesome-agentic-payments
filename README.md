@@ -109,6 +109,7 @@ Practical toolkit for AI agents to make L402 payments. MCP server, CLI, and Pyth
 
 - [Fewsats MCP Server](https://github.com/fewsats/fewsats-mcp) - MCP server for AI agent payments.
 - [Fewsats Python SDK](https://github.com/Fewsats/L402-python) - L402 payments for AI agents.
+- [wealth-agent](https://github.com/jukky-source/wealth-agent) - Self-hosted Cloudflare Worker that sells seven utility endpoints (code review, data cleaning, research briefs, URL metadata, CSV/JSON conversion, regex extraction, diff) behind x402 HTTP 402 paywalls, with a receipt ledger that records only signature-verified payments.
 
 ## Fiat payment rails
 
