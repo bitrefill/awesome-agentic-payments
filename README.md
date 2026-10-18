@@ -90,6 +90,7 @@ Uses HTTP 402 "Payment Required" for instant stablecoin payments over HTTP. Buil
 - [x402 Coinbase Documentation](https://docs.cdp.coinbase.com/x402/welcome) - Developer docs and quickstart.
 - [x402 on Solana](https://solana.com/developers/guides/getstarted/intro-to-x402) - Solana integration guide.
 - [x402 Foundation](https://github.com/x402-foundation/x402) - Neutral governance of the standard under the Linux Foundation, with 22 supporting organizations. [Foundation page](https://linuxfoundation.org/x402foundation/).
+- [Subcento](https://github.com/septagos/subcento) - Pre-verification API: signed SAFE/CAUTION/BLOCK verdicts on the x402 transaction itself before an agent executes it (Base USDC, 0.002 USDC/call, fail-closed, MIT).
 
 ### L402
 
