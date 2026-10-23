@@ -22,6 +22,7 @@ Maintained by [Bitrefill](https://www.bitrefill.com). Contributions welcome.
   - [Mastercard](#mastercard)
   - [PayPal](#paypal)
   - [Cloudflare](#cloudflare)
+  - [AgentaOS](#agentaos)
 - [Protocol proposals and standards](#protocol-proposals-and-standards)
   - [Ethereum](#ethereum)
   - [Solana](#solana)
@@ -152,6 +153,14 @@ Infrastructure backbone for most agentic commerce protocols (ACP, AP2, UCP). Key
 - [Cloudflare Agents SDK](https://developers.cloudflare.com/agents/) - Full SDK documentation.
 - [Cloudflare x402 Integration](https://developers.cloudflare.com/agents/x402/) - x402 in the Agents SDK.
 - [Cloudflare Secure Agentic Commerce](https://blog.cloudflare.com/secure-agentic-commerce/) - Visa and Mastercard protocol support announcement.
+
+### AgentaOS
+
+**Merchant of record for AI agents**: an MCP server and API let an agent create products, checkout links and subscriptions and read customers and invoices, while AgentaOS is the legal seller that handles VAT, sales tax and invoices and pays the merchant out to a local bank account.
+
+- [AgentaOS MCP Server Setup](https://docs.agentaos.ai/mcp/setup) - Hosted MCP server for Claude, ChatGPT, Cursor and other MCP clients.
+- [Let an AI Agent Run Your Store](https://docs.agentaos.ai/guides/ai-agent) - Official guide to agent-driven checkouts and subscriptions.
+- [AgentaOS SDK and MCP Repository](https://github.com/AgentaOS/agentaos) - Open-source SDK, CLI and MCP server. ([npm](https://www.npmjs.com/package/@agentaos/pay))
 
 ## Protocol proposals and standards
 
