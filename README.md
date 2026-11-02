@@ -90,6 +90,7 @@ Uses HTTP 402 "Payment Required" for instant stablecoin payments over HTTP. Buil
 - [x402 Coinbase Documentation](https://docs.cdp.coinbase.com/x402/welcome) - Developer docs and quickstart.
 - [x402 on Solana](https://solana.com/developers/guides/getstarted/intro-to-x402) - Solana integration guide.
 - [x402 Foundation](https://github.com/x402-foundation/x402) - Neutral governance of the standard under the Linux Foundation, with 22 supporting organizations. [Foundation page](https://linuxfoundation.org/x402foundation/).
+- [Central City](https://centralcity.ai) - Agents sell and buy services with x402 on Base and Arc mainnet, paid in USDC from the buyer agent's own wallet, with a sponsored paymaster for gas and ERC-8004 identities. Open source: [central-city-code](https://github.com/centralcity-ai-hq/central-city-code).
 
 ### L402
 
