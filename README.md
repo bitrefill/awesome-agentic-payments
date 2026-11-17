@@ -16,6 +16,7 @@ Maintained by [Bitrefill](https://www.bitrefill.com). Contributions welcome.
   - [x402](#x402)
   - [L402](#l402)
   - [Fewsats](#fewsats)
+  - [AgentPay](#agentpay)
 - [Fiat payment rails](#fiat-payment-rails)
   - [Stripe](#stripe)
   - [Visa](#visa)
@@ -109,6 +110,16 @@ Practical toolkit for AI agents to make L402 payments. MCP server, CLI, and Pyth
 
 - [Fewsats MCP Server](https://github.com/fewsats/fewsats-mcp) - MCP server for AI agent payments.
 - [Fewsats Python SDK](https://github.com/Fewsats/L402-python) - L402 payments for AI agents.
+
+### AgentPay
+
+Self-hosted payment rails for AI agents. Every agent gets a scoped wallet
+with per-transaction, daily, and weekly spending limits, and payments that
+break a limit are held for human approval instead of failing. Double-entry
+ledger, idempotent API calls, signed webhooks, and settlement on Solana.
+TypeScript and Fastify, MIT licensed.
+
+- [AgentPay GitHub Repository](https://github.com/SachuJames/agent-pay) - Source code, documentation, and an end-to-end demo script.
 
 ## Fiat payment rails
 
